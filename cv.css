@@ -1,0 +1,72 @@
+
+*{
+    margin: 5PX ;
+    padding: 5PX;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+html{
+    background-color: rgb(247, 245, 245);}
+
+header{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    z-index: 1000;
+    box-shadow: 0 0 10PX rgba(0, 0, 0, 0.5);
+}
+
+header ul{
+    list-style: none;
+
+}
+header ul li{
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+header ul li a{
+    color: rgb(107, 20, 61);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section img{
+    width: 380px;
+    position: fixed;
+    left: 1100PX;
+    border-radius: 20%;
+
+
+}
+h1{
+    
+    font-size: 500%;
+    font-style: italic;
+    text-align: left;
+    color: black;
+}
+h2 span{
+    color:rgb(107, 20, 61);
+    font-size: 40px;
+
+}
+h2{
+    color:black;
+}
+h3,h4{
+    font-size: 30px;
+    color:black;
+}
+form a{
+    background: white;
+    color: black;
+    padding: 8px 25px;
+    margin:300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:25px;
+    border: 2px solid black;
+
+  }
+  
+
